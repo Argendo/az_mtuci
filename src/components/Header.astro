@@ -2,6 +2,7 @@
 import HeaderLink from './HeaderLink.astro';
 import ThemeToggle from './ThemeToggleButton';
 import { SITE_TITLE, HOMEPAGE_URL } from '../config';
+import DropdownMenu from './DropdownMenu';
 ---
 
 <header class="fixed w-full p-2 z-20 backdrop-blur-md">
@@ -17,6 +18,7 @@ import { SITE_TITLE, HOMEPAGE_URL } from '../config';
       </div>
       <div class="flex-1"></div>
       <ThemeToggle client:visible />
+      <DropdownMenu client:visible />
     </nav>
   </div>
 </header>
