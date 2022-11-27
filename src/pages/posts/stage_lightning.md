@@ -5,7 +5,7 @@ public: true
 layout: ../../layouts/BlogPost.astro
 title: Сценический свет
 createdAt: 1669555113755
-updatedAt: 1669557258593
+updatedAt: 1669577131125
 tags:
   - Техническое оснащение
 heroImage: /posts/stage_lightning_thumbnail.png
