@@ -1,5 +1,5 @@
 {
-  "name": "@example/blog",
+  "name": "az_mtuci",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "live-import": "node --experimental-vm-modules tools/import.mjs"
   },
   "dependencies": {
     "@astrojs/image": "^0.7.0",
@@ -23,6 +24,10 @@
     "react-icons": "^4.6.0"
   },
   "devDependencies": {
+    "@inkdropapp/live-export": "^0.1.8",
+    "@typescript-eslint/parser": "^5.44.0",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-astro": "^0.21.0",
     "rehype-add-classes": "^1.0.0"
   }
 }
