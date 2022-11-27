@@ -23,15 +23,14 @@ const posts = (await Astro.glob('./posts/*.md')).sort(
 		<Header title={SITE_TITLE} />
 		<main class="pt-[56px]">
             <Masthead />
-            <h1 class="font-mplus text-center">Всё, что надо знать</h1>
+            <h1 class="font-mplus text-center mb-5">Здесь Вы можете узнать всю исчерпывающую информацию об актовом зале МТУСИ.</h1>
             <Content>
                 <section>
-                    <p class="mb-8 indent-4">Здесь Вы можете узнать всю исчерпывающую информацию об актовом зале МТУСИ.</p>
                 </section>
                 <section>
                 <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">{
                     posts.map(post => (
-                        <li class="text-center mb-4">
+                        <li class="text-center mb-5">
                          <Image class="border border-slate-300 dark:border-zinc-700 rounded-xl" src={post.frontmatter.heroImage} width={720*2} aspectRatio={2.0} alt="Картиночка" />
                          <a href={post.url}>
                             <div class="mt-3 text-xl">{post.frontmatter.title}</div>
