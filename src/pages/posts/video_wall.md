@@ -4,7 +4,7 @@ slug: video_wall
 public: true
 layout: ../../layouts/BlogPost.astro
 title: Видеостена
-createdAt: 1669554793709
+createdAt: 1669635370000
 updatedAt: 1669577144478
 tags:
   - Техническое оснащение

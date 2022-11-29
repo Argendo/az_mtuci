@@ -4,7 +4,7 @@ slug: sound
 public: true
 layout: ../../layouts/BlogPost.astro
 title: Звуковая аппаратура
-createdAt: 1669555074135
+createdAt: 1669635371000
 updatedAt: 1669577136959
 tags:
   - Техническое оснащение

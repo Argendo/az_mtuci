@@ -4,7 +4,7 @@ slug: stage_lightning
 public: true
 layout: ../../layouts/BlogPost.astro
 title: Сценический свет
-createdAt: 1669555113755
+createdAt: 1669635361000
 updatedAt: 1669577131125
 tags:
   - Техническое оснащение
